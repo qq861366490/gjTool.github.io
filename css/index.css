@@ -1110,6 +1110,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 	margin: 0 1px 1px 0;
 	float: left;
 	position: relative;
+	cursor: pointer;
 }
 
 .list_case li a {
