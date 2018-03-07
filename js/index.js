@@ -47,9 +47,27 @@ $(document).ready(function(e) {
 			},
 			afterLoad:function(anchorLink ,index){ // 滚动结束后
 				$('#js_fullpage').children().eq(index-1).addClass("focus");
+				$('#fullPage-nav li a').eq(index-1).addClass("active");
+				if(index-1 == 2){
+					$('#fullPage-nav li span').css({
+						border: '1px solid #fff'
+					})
+					$('#fullPage-nav li .active span').css({
+						background: '#dddddd'
+					})
+				}else {
+					$('#fullPage-nav li span').css({
+						background: 'none',
+						border: '1px solid #000'
+					})
+					$('#fullPage-nav li .active span').css({
+						background: '#000'
+					})
+				}
 			},
 			onLeave:function(anchorLink ,index){ // 滚动前
 				$('#js_fullpage').children().removeClass("focus");
+				$('#fullPage-nav li a').removeClass("active");
 			}
 		});
 	});
