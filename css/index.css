@@ -1167,12 +1167,12 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 
 .tips span {
 	display: inline-block;
-	width: 10px;
-	height: 10px;
+	width: 15px;
+	height: 15px;
 	background: #4f5459;
 	border-radius: 100px;
-	margin: 0 5px;
-	cursor: default;
+	margin: 5px;
+	cursor: pointer;
 }
 
 .tips .focus {

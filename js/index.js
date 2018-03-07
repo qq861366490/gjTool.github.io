@@ -19,7 +19,7 @@ $(document).ready(function(e) {
 	$("#js_wrap_case").css({"width":len*1000});
 	
 	//切换案例
-	$("#js_tips span").hover(function(){
+	var change = function (){
 		var index = $(this).index();
 		$(this).addClass("focus").siblings().removeClass("focus");
 		
@@ -29,11 +29,13 @@ $(document).ready(function(e) {
 		$("#js_wrap_case").css({
 			"left": -index*1000
 		});
-	});
-	var color = ['#ebfbff', '#fff', '#212325', '#ebfbff'];
+	}
+	$("#js_tips span").hover(change);
+	$("#js_tips span").click(change);
+
 	$(function(){
 		$('#js_fullpage').fullpage({
-			slidesColor: color,
+			slidesColor: ['#ebfbff', '#fff', '#212325', '#ebfbff'],
 			anchors: ['page1', 'page2', 'page3', 'page4'],
 			menu: '#menu',
 			afterRender:function(){
