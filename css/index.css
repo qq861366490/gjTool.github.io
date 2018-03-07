@@ -480,6 +480,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 .logo {
 	float: left;
 	line-height: 70px;
+	margin-left: 20px;
 }
 
 .logo a {
@@ -1167,8 +1168,8 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 
 .tips span {
 	display: inline-block;
-	width: 15px;
-	height: 15px;
+	width: 10px;
+	height: 10px;
 	background: #4f5459;
 	border-radius: 100px;
 	margin: 5px;

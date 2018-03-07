@@ -1,17 +1,16 @@
 //全站公共js库
 $(document).ready(function(e) {
 	$(".js_cell_case").click(function(){
-		console.log(0);
 		url = $(this).attr("data-url"); // 要加载的iframe
 		title = $(this).attr("data-name");
 		art.dialog.open(url,{
 			lock: true,
 			title: title ,
-			width:900,
+			width: 1485,
 			drag:false,
 			opacity:0.3,
 			background:"#000",
-			height: 500
+			height: 700
 		});
 	});
 	//设置案例宽度
@@ -35,6 +34,11 @@ $(document).ready(function(e) {
 
 	$(function(){
 		$('#js_fullpage').fullpage({
+			loopBottom:true,
+			loopTop:true,
+			resize: true,
+			slidesNavigation: true,
+			slidesNavPosition: "top",
 			slidesColor: ['#ebfbff', '#fff', '#212325', '#ebfbff'],
 			anchors: ['page1', 'page2', 'page3', 'page4'],
 			menu: '#menu',
