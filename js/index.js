@@ -1,16 +1,52 @@
-//全站公共js库
+/*
+ * <li data-url="http://www.gjtool.cn/gjToolAPI/index.html" data-name="API文档 for gjTool.js" class="js_cell_case">
+		<span class="zz"></span>
+		<img src="images/eq/case.jpg" width="248" height="160" />
+		<p class="case_info">
+			<span>1正在努力开发完善中……</span>
+			<span>参与：web前端开发</span>
+		</p>
+	</li>
+ */
 $(document).ready(function(e) {
-	$(".js_cell_case").click(function() {
+	var html = function(data){
+		var li = "";
+		$.each(data,function(i,index){
+			if(i<12){
+				li += '<li data-url="'+index.url+'" data-name="'+index.name+'" class="js_cell_case">'
+					+'<span class="zz"></span>'
+					+'<img src="'+index.img+'" width="248" height="160" />'
+					+'<p class="case_info">'
+						+'<span>'+index.title+'</span>'
+						+'<span>'+index.text+'</span>'
+					+'</p>'
+				+'</li>'
+			}
+		})
+		return li;
+	}
+	$.getJSON("js/case.json",function(data){
+		$('#js_wrap_case .list_case:eq(0)').html(html(data[0]));
+		$('#js_wrap_case .list_case:eq(1)').html(html(data[1]));
+		$('#js_wrap_case .list_case:eq(2)').html(html(data[2]));
+		$('#js_wrap_case .list_case:eq(3)').html(html(data[3]));
+	})
+	$(".list_case").on("click",".js_cell_case",function() {
 		url = $(this).attr("data-url"); // 要加载的iframe
 		title = $(this).attr("data-name");
+		var width = 1366, height = 760;
+		if(title.indexOf('移动端') != -1){
+			width = 375, height = 667;
+		}
+		//583
 		art.dialog.open(url, {
 			lock: true,
 			title: title,
-			width: 1485,
+			width: width,
 			drag: false,
-			opacity: 0.3,
+			opacity: 1,
 			background: "#000",
-			height: 700
+			height: height
 		});
 	});
 	//设置案例宽度

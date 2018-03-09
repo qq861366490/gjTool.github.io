@@ -1078,10 +1078,8 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 
 /*案例*/
 
-.container_case,
-.list_case {
+.container_case ,.list_case {
 	width: 1000px;
-	height: 324px;
 	overflow: hidden;
 }
 
@@ -1093,7 +1091,9 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 	-o-transform: translate(0px, 500px);
 	-ms-transform: translate(0px, 500px);
 }
-
+.aui_title a {
+	text-decoration: underline;
+}
 .list_case,
 .list_case li {
 	float: left;
@@ -1142,7 +1142,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 }
 
 .list_case li:hover .case_info {
-	background: #42b7f0;
+	background: rgba(0,0,0,0.5);
 	bottom: 0px;
 }
 
