@@ -83,21 +83,21 @@
 		{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/banner' title='https://github.com/gjTool/demo/tree/master/banner' target='_blank'>原生js轮播(面向对象-构造函数)-淡入淡出</a>",
 			"url": "http://www.gjtool.cn/demo/banner/fadeIn_class.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/banner-fade.png",
 			"title": "原生js轮播(面向对象)-淡入淡出",
 			"text": "html、css3、JavaScript"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/banner' title='https://github.com/gjTool/demo/tree/master/banner' target='_blank'>原生js轮播-淡入淡出</a>",
 			"url": "http://www.gjtool.cn/demo/banner/slide.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/banner-slide.png",
 			"title": "原生js轮播-滑动轮播",
 			"text": "html、css3、JavaScript"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/big_picture' title='https://github.com/gjTool/demo/tree/master/big_picture' target='_blank'>原生js图片放大镜</a>",
 			"url": "http://www.gjtool.cn/demo/big_picture",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/pic.png",
 			"title": "原生js图片放大镜",
 			"text": "html、css3、JavaScript"
 		}
@@ -105,28 +105,28 @@
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/feijidazhan' title='https://github.com/gjTool/demo/tree/master/feijidazhan' target='_blank'>原生js(面向对象)——飞机大战</a>",
 			"url": "http://www.gjtool.cn/demo/feijidazhan",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/plan.png",
 			"title": "原生js(面向对象)——飞机大战",
 			"text": "html、css3、JavaScript"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/motaikuang' title='https://github.com/gjTool/demo/tree/master/motaikuang' target='_blank'>原生js-模态框</a>",
 			"url": "http://www.gjtool.cn/demo/motaikuang",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/modal.png",
 			"title": "原生js-模态框",
 			"text": "html、css3、JavaScript"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/suijidianming' title='https://github.com/gjTool/demo/tree/master/suijidianming' target='_blank'>原生js-随机点名</a>",
 			"url": "http://www.gjtool.cn/demo/suijidianming/index.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/dianming.png",
 			"title": "原生js-随机点名",
 			"text": "html、css3、JavaScript"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/blob/master/canvasClock1.html' title='https://github.com/gjTool/demo/blob/master/canvasClock1.html' target='_blank'>原生js-canvas时钟</a>",
 			"url": "http://www.gjtool.cn/demo/canvasClock1.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/clock.png",
 			"title": "原生js-canvas时钟",
 			"text": "html、css3、JavaScript、canvas"
 		}

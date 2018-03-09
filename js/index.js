@@ -44,7 +44,7 @@ $(document).ready(function(e) {
 			title: title,
 			width: width,
 			drag: false,
-			opacity: 1,
+			opacity: 0.6,
 			background: "#000",
 			height: height
 		});
