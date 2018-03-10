@@ -18,6 +18,9 @@ $(document).ready(function(e) {
 		$("#js_wrap_case").css({
 			"width": len * width
 		});
+		$("#fullPage-nav").css({
+			marginTop: '0px'
+		})
 	};
 	recalc();
 	$(window).resize(recalc);
@@ -98,7 +101,7 @@ $(document).ready(function(e) {
 				if(index - 1 == 2) {
 					$('#fullPage-nav li span').css({
 						background: 'none',
-						border: '1px solid #fff'
+						border: 1*size+'px solid #fff'
 					})
 					$('#fullPage-nav li .active span').css({
 						background: '#fff'
@@ -106,7 +109,7 @@ $(document).ready(function(e) {
 				} else {
 					$('#fullPage-nav li span').css({
 						background: 'none',
-						border: '1px solid #000'
+						border: 1*size+'px solid #000'
 					})
 					$('#fullPage-nav li .active span').css({
 						background: '#000'
