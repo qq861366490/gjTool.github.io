@@ -1,31 +1,55 @@
+//2024
+
 $(document).ready(function(e) {
-	var html = function(data){
+
+	var size = 1,width = 1000;
+	var recalc = function() {
+		var docEl = document.documentElement || document.body;
+		var clientWidth = docEl.clientWidth;
+
+		if(!clientWidth) return;
+		docEl.style.fontSize = 100 * (clientWidth / 2024) + 'px';
+		size = clientWidth / 2024;
+		//设置案例宽度
+		var len = $("#js_wrap_case").children().length;
+
+		width = 1000 * size;
+
+		$("#js_wrap_case").css({
+			"width": len * width
+		});
+	};
+	recalc();
+	$(window).resize(recalc);
+
+	var html = function(data) {
 		var li = "";
-		$.each(data,function(i,index){
-			if(i<12){
-				li += '<li data-url="'+index.url+'" data-name="'+index.name+'" class="js_cell_case">'
-					+'<span class="zz"></span>'
-					+'<img src="'+index.img+'" width="248" height="160" />'
-					+'<p class="case_info">'
-						+'<span>'+index.title+'</span>'
-						+'<span>'+index.text+'</span>'
-					+'</p>'
-				+'</li>'
+		$.each(data, function(i, index) {
+			if(i < 12) {
+				li += '<li data-url="' + index.url + '" data-name="' + index.name + '" class="js_cell_case">' +
+					'<span class="zz"></span>' +
+					'<img src="' + index.img + '" />' +
+					'<p class="case_info">' +
+					'<span>' + index.title + '</span>' +
+					'<span>' + index.text + '</span>' +
+					'</p>' +
+					'</li>'
 			}
 		})
 		return li;
 	}
-	$.getJSON("js/case.json",function(data){
+	$.getJSON("js/case.json", function(data) {
 		$('#js_wrap_case .list_case:eq(0)').html(html(data[0]));
 		$('#js_wrap_case .list_case:eq(1)').html(html(data[1]));
 		$('#js_wrap_case .list_case:eq(2)').html(html(data[2]));
 		$('#js_wrap_case .list_case:eq(3)').html(html(data[3]));
 	})
-	$(".list_case").on("click",".js_cell_case",function() {
+	$(".list_case").on("click", ".js_cell_case", function() {
 		url = $(this).attr("data-url"); // 要加载的iframe
 		title = $(this).attr("data-name");
-		var width = 1366, height = 760;
-		if(title.indexOf('移动端') != -1){
+		var width = 1366,
+			height = 760;
+		if(title.indexOf('移动端') != -1) {
 			width = 420, height = 700;
 		}
 		//583
@@ -39,11 +63,6 @@ $(document).ready(function(e) {
 			height: height
 		});
 	});
-	//设置案例宽度
-	var len = $("#js_wrap_case").children().length;
-	$("#js_wrap_case").css({
-		"width": len * 1000
-	});
 
 	//切换案例
 	var change = function() {
@@ -54,7 +73,7 @@ $(document).ready(function(e) {
 
 		var index = $(this).index();
 		$("#js_wrap_case").css({
-			"left": -index * 1000
+			"left": -index * width
 		});
 	}
 	$("#js_tips span").hover(change);

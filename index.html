@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="html0">
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -8,6 +8,7 @@
 		<title>高进的个人网站 - www.gjtool.cn</title>
 		<meta name="keywords" content="gjTool,gjtool.cn,www.gjtool.cn,gjTool.js" />
 		<meta name="description" content="高进的个人网站www.gjtool.cn、精简个人js类库gjtool.js的发布站" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
 		<link href="images/github.png" type="image/x-icon" rel="shortcut icon" />
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
 
@@ -17,6 +18,11 @@
 		<script type="text/javascript" src="js/lib/jquery.artdialog.js"></script>
 		<script type="text/javascript" src="js/lib/artdialog.iframe.js"></script>
 		<link rel="stylesheet" type="text/css" href="js/lib/skins/default.css" />
+
+		<!--[if lte IE 8]>
+		<script type="text/javascript" src="js/respond.min.js"></script>
+		<script type="text/javascript" src="js/html5shiv.min.js"></script>
+		<![endif]-->
 
 		<script type="text/javascript" src="js/index.js"></script>
 	</head>
@@ -49,8 +55,8 @@
 
 			<!--个人简介-->
 			<div class="section">
-				<div class="container container_1000 m_center align_center">
-					<p class="mb20">
+				<div class="container container_1000 m_center align_center jingli-con">
+					<p class="mb20 jingli">
 						<span class="head">
                         <span class="zz"></span>
 						<span class="border"></span>
@@ -72,18 +78,18 @@
 						<span class="zhishi zhishi_3"></span>
 					</p>
 
-					<p class="mb30">
+					<p class="mb30 h36">
 						<span class="title_1">工作经历</span>
 					</p>
 					<div class="wrap_time m_center cf">
 						<span class="time_start"></span><span class="time_end"></span>
 						<div class="jingli time_1">
-							<p class="jingli_time">2017-05 — 至今</p>
-							<p class="jingli_info">武汉慧擎科技有限公司 &nbsp;&nbsp;web前端工程师/web三维GIS工程师</p>
+							<p class="jingli_time h30">2017-05 — 至今</p>
+							<p class="jingli_info h30">武汉慧擎科技有限公司 &nbsp;&nbsp;web前端工程师/web三维GIS工程师</p>
 						</div>
 						<div class="jingli time_2">
-							<p class="jingli_time">2014-03 — 2017-05</p>
-							<p class="jingli_info">杭州一凡科技有限公司 &nbsp;&nbsp;web前端工程师</p>
+							<p class="jingli_time h30">2014-03 — 2017-05</p>
+							<p class="jingli_info h30">杭州一凡科技有限公司 &nbsp;&nbsp;web前端工程师</p>
 						</div>
 					</div>
 				</div>
@@ -91,7 +97,7 @@
 
 			<!--个人技能-->
 			<div class="section bg_fff m_center align_center">
-				<p class="mb30">
+				<p class="mb30 jineng">
 					<span class="img_bg title_jn"></span>
 				</p>
 				<p>
@@ -127,16 +133,18 @@
 						<p>用过angular1.x、vue2.0、react等主流前端框架，熟悉MVVM模式，喜欢钻研前端高新技术</p>
 						<p>能熟练使用JavaScript原生代码进行编程，熟悉面向对象编程，并完成了一个精简js类库 gjTool.js</p>
 						<p>
-							gjTool.js地址：<a href="https://github.com/gjTool/gjTool" title="https://github.com/gjTool/gjTool" target="_blank">https://github.com/gjTool/gjTool</a>
-							 &nbsp;&nbsp;gjToolAPI地址：<a href="http://www.gjtool.cn/gjToolAPI" title="http://www.gjtool.cn/gjToolAPI" target="_blank">http://www.gjtool.cn/gjToolAPI</a>
+							gjTool.js地址：
+							<a href="https://github.com/gjTool/gjTool" title="https://github.com/gjTool/gjTool" target="_blank">https://github.com/gjTool/gjTool</a>
+							&nbsp;&nbsp;gjToolAPI地址：
+							<a href="http://www.gjtool.cn/gjToolAPI" title="http://www.gjtool.cn/gjToolAPI" target="_blank">http://www.gjtool.cn/gjToolAPI</a>
 						</p>
 					</div>
 				</div>
 			</div>
 
 			<!--案例-->
-			<div class="section m_center align_center">
-				<p class="mb30">
+			<div class="section m_center align_center case">
+				<p class="mb30 h36">
 					<span class="title_1">案例</span>
 				</p>
 				<p>
@@ -155,27 +163,29 @@
 
 							</ul>
 							<ul class="list_case">
-								
+
 							</ul>
 							<ul class="list_case">
-								
+
 							</ul>
 							<ul class="list_case">
-								
+
 							</ul>
 						</div>
 					</div>
-					<div class="tips" id="js_tips">
-						<span class="focus"></span>
-						<span></span>
-						<span></span>
-						<span></span>
+					<div class="tips h24 " id="js_tips">
+						<div class="tips-con">
+							<span class="focus"></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<!--联系方式-->
-			<div class="section align_center">
+			<div class="section align_center yue">
 				<p class="mb30">
 					<span class="img_bg2 title_jn title_yue">
 						联系方式
@@ -190,11 +200,11 @@
 				<p class="mb20">
 					<span class="zhishi zhishi_3"></span>
 				</p>
-				
-				<p>
+
+				<p class="yue">
 					<span class="yue_info yue_2"><i  class="icon"></i><i class="text">:&nbsp;861366490@qq.com</i></span>
 				</p>
-				<p>
+				<p class="yue">
 					<a target="_self" href="tencent://message/?uin=861366490&Site=gjtool.cn&Menu=yes" class="yue_info yue_3"><i class="icon"></i><i class="text">:&nbsp;861366490<span>&nbsp;&nbsp;（点击开始联系）</span></i></a>
 				</p>
 			</div>
@@ -217,6 +227,9 @@
 				</li>
 			</ul>
 		</div>
+		<!--[if lte IE 8]>
+		<script type="text/javascript" src="js/rem.min.js"></script>
+		<![endif]-->
 	</body>
 
 </html>
