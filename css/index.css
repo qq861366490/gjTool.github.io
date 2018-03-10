@@ -557,7 +557,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 	height: 0.68rem;
 	border-bottom: 0.02rem solid #323436;
 	padding: 0 0.4rem;
-	font-size: 0.12rem;
+	font-size: 0.16rem;
 }
 
 .nav li a:hover {
@@ -878,7 +878,7 @@ p.p_info {
 .jingli_time {
 	background: #ccc;
 	width: 2rem;
-	font-size: 0.14rem;
+	font-size: 0.16rem;
 	position: absolute;
 	right: 0.3rem;
 }
@@ -934,7 +934,7 @@ p.p_info {
 	width: 4.86rem;
 	left: 0.30rem;
 	text-align: left;
-	font-size: 0.14rem;
+	font-size: 0.16rem;
 }
 
 
@@ -1111,6 +1111,7 @@ p.jineng {
 }
 .container_case ,.list_case {
 	width: 10rem;
+	height: 100%;
 	overflow: hidden;
 }
 .case {
@@ -1198,6 +1199,7 @@ p.jineng {
 	position: relative;
 	overflow: hidden;
 	width: 20rem;
+	height: 100%;
 	left: 0px;
 }
 
