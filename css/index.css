@@ -37,6 +37,7 @@ iframe {
 }
 p {
 	height: 0.24rem;
+	line-height: 0.24rem;
 	font-size: 0.16rem;
 }
 .h36 {
@@ -44,10 +45,12 @@ p {
 	line-height: 0.36rem;
 }
 .h30 {
-	height: 0.36rem;
+	height: 0.30rem;
+	line-height: 0.30rem;
 }
 .h24 {
 	height: 0.24rem;
+	line-height: 0.24rem;
 }
 #superContainer {
 	height: 100%;
