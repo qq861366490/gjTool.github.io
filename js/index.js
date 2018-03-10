@@ -1,13 +1,3 @@
-/*
- * <li data-url="http://www.gjtool.cn/gjToolAPI/index.html" data-name="API文档 for gjTool.js" class="js_cell_case">
-		<span class="zz"></span>
-		<img src="images/eq/case.jpg" width="248" height="160" />
-		<p class="case_info">
-			<span>1正在努力开发完善中……</span>
-			<span>参与：web前端开发</span>
-		</p>
-	</li>
- */
 $(document).ready(function(e) {
 	var html = function(data){
 		var li = "";
@@ -36,7 +26,7 @@ $(document).ready(function(e) {
 		title = $(this).attr("data-name");
 		var width = 1366, height = 760;
 		if(title.indexOf('移动端') != -1){
-			width = 375, height = 667;
+			width = 420, height = 700;
 		}
 		//583
 		art.dialog.open(url, {

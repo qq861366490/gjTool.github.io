@@ -133,35 +133,35 @@
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/blob/master/dingdianpaowuxian.html' title='https://github.com/gjTool/demo/blob/master/dingdianpaowuxian.html' target='_blank'>原生js-定点抛物线</a>",
 			"url": "http://www.gjtool.cn/demo/dingdianpaowuxian.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/pao.png",
 			"title": "原生js-定点抛物线",
 			"text": "html5、css3、JavaScript"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/blob/master/paowuxian.html' title='https://github.com/gjTool/demo/blob/master/paowuxian.html' target='_blank'>原生js-抛物线</a>",
 			"url": "http://www.gjtool.cn/demo/paowuxian.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/pao2.png",
 			"title": "原生js-抛物线",
 			"text": "html5、css3、JavaScript"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/blob/master/zhuce.html' title='https://github.com/gjTool/demo/blob/master/zhuce.html' target='_blank'>原生js-注册页（表单正则验证）</a>",
 			"url": "http://www.gjtool.cn/demo/zhuce.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/zhuce.png",
 			"title": "原生js-注册页（表单正则验证）",
 			"text": "html5、css3、JavaScript"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/pubuliuguding' title='https://github.com/gjTool/demo/tree/master/pubuliuguding' target='_blank'>原生js-瀑布流（固定）</a>",
 			"url": "http://www.gjtool.cn/demo/pubuliuguding/index.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/pubuliu.png",
 			"title": "原生js-瀑布流（固定）",
 			"text": "html、css3、JavaScript"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/pubuliuzishiying' title='https://github.com/gjTool/demo/tree/master/pubuliuzishiying' target='_blank'>原生js-瀑布流（自适应）</a>",
 			"url": "http://www.gjtool.cn/demo/pubuliuzishiying/index.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/pubuliu2.png",
 			"title": "原生js-瀑布流（自适应）",
 			"text": "html、css3、JavaScript"
 		}
@@ -171,84 +171,84 @@
 		{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/motianlun' title='https://github.com/gjTool/demo/tree/master/motianlun' target='_blank'>原生js-模态框</a>",
 			"url": "http://www.gjtool.cn/demo/motianlun/motianlun.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/motianlun.png",
 			"title": "css3动画demo-摩天轮",
 			"text": "html、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/motianlun/3Dpicture' title='https://github.com/gjTool/demo/tree/master/motianlun/3Dpicture' target='_blank'>原生js-3D旋转相册</a>",
 			"url": "http://www.gjtool.cn/demo/motianlun/3Dpicture/test.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/xuan.png",
 			"title": "css3动画demo-3D旋转相册",
 			"text": "html、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/motianlun' title='https://github.com/gjTool/demo/tree/master/motianlun' target='_blank'>原生js-各种位移淡入淡出效果</a>",
 			"url": "http://www.gjtool.cn/demo/motianlun/img_transform.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/che.png",
 			"title": "css3动画demo-各种位移淡入淡出效果",
 			"text": "html、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/motianlun' title='https://github.com/gjTool/demo/tree/master/motianlun' target='_blank'>原生js-滑动导航</a>",
 			"url": "http://www.gjtool.cn/demo/motianlun/position_nav.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/nav.png",
 			"title": "css3动画demo-滑动导航",
 			"text": "html、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/nth-child' title='https://github.com/gjTool/demo/tree/master/nth-child' target='_blank'>原生js-折叠选项卡</a>",
 			"url": "http://www.gjtool.cn/demo/nth-child/index.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/tab.png",
 			"title": "css3动画demo-折叠选项卡",
 			"text": "html、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/animate' title='https://github.com/gjTool/demo/tree/master/animate' target='_blank'>css3动画demo-人走路</a>",
 			"url": "http://www.gjtool.cn/demo/animate/ren.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/ren.png",
 			"title": "css3动画demo-人走路",
 			"text": "html、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/animate' title='https://github.com/gjTool/demo/tree/master/animate' target='_blank'>css3动画demo-六方体旋转</a>",
 			"url": "http://www.gjtool.cn/demo/animate/translate2.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/liu.png",
 			"title": "css3动画demo-六方体旋转",
 			"text": "html、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/blob/master/img_block.html' title='https://github.com/gjTool/demo/blob/master/img_block.html' target='_blank'>css3动画-手风琴</a>",
 			"url": "http://www.gjtool.cn/demo/img_block.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/shou.png",
 			"title": "css3效果-手风琴",
 			"text": "html5、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/blob/master/img_position.html' title='https://github.com/gjTool/demo/blob/master/img_position.html' target='_blank'>css3效果-图片居中放大</a>",
 			"url": "http://www.gjtool.cn/demo/img_position.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/da.png",
 			"title": "css3效果-图片居中放大",
 			"text": "html5、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/blob/master/jiazai.html' title='https://github.com/gjTool/demo/blob/master/jiazai.html' target='_blank'>css3效果-加载</a>",
 			"url": "http://www.gjtool.cn/demo/jiazai.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/jia.png",
 			"title": "css3效果-加载",
 			"text": "html5、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/blob/master/position_a_filter_opacity.html' title='https://github.com/gjTool/demo/blob/master/position_a_filter_opacity.html' target='_blank'>css3效果-图片选项卡</a>",
 			"url": "http://www.gjtool.cn/demo/position_a_filter_opacity.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/tu.png",
 			"title": "css3效果-图片选项卡",
 			"text": "html5、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/blob/master/dice6.html' title='https://github.com/gjTool/demo/blob/master/dice6.html' target='_blank'>css3动画-骰子</a>",
 			"url": "http://www.gjtool.cn/demo/dice6.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/sai.png",
 			"title": "css3动画-骰子",
 			"text": "html5、css3"
 		}
@@ -258,38 +258,32 @@
 	
 	,[
 		
+		
 		{
-			"name": "<a href='https://github.com/gjTool/demo/tree/master/youxiwangye' title='https://github.com/gjTool/demo/tree/master/youxiwangye' target='_blank'>移动端静态网页</a>",
-			"url": "http://www.gjtool.cn/demo/youxiwangye/index.html",
-			"img": "images/eq/case.jpg",
-			"title": "移动端静态网页",
-			"text": "html5、css3"
-		}
-		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/video' title='https://github.com/gjTool/demo/tree/master/video' target='_blank'>html5-video</a>",
 			"url": "http://www.gjtool.cn/demo/video/index.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/video.png",
 			"title": "html5-video",
 			"text": "html5、css3"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/shoufengqin' title='https://github.com/gjTool/demo/tree/master/shoufengqin' target='_blank'>jQuery-手风琴</a>",
 			"url": "http://www.gjtool.cn/demo/shoufengqin/index.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/qin.png",
 			"title": "jQuery-手风琴",
 			"text": "html、css3、JavaScript、jQuery"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/danmu' title='https://github.com/gjTool/demo/tree/master/danmu' target='_blank'>jQuery-模拟弹幕</a>",
 			"url": "http://www.gjtool.cn/demo/danmu",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/dan.png",
 			"title": "jQuery-模拟弹幕",
 			"text": "html、css3、JavaScript、jQuery"
 		}
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/shubiaosixiangxian' title='https://github.com/gjTool/demo/tree/master/shubiaosixiangxian' target='_blank'>jQuery-百度图片鼠标划入划出</a>",
 			"url": "http://www.gjtool.cn/demo/shubiaosixiangxian/index.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/si.png",
 			"title": "jQuery-百度图片鼠标划入划出",
 			"text": "html、css3、JavaScript、jQuery"
 		}
@@ -298,7 +292,7 @@
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/tree/master/yanzhengmatuozhuai' title='https://github.com/gjTool/demo/tree/master/yanzhengmatuozhuai' target='_blank'>jQuery-验证码拖拽模拟</a>",
 			"url": "http://www.gjtool.cn/demo/yanzhengmatuozhuai/index.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/yan.png",
 			"title": "jQuery-验证码拖拽模拟",
 			"text": "html、css3、JavaScript、jQuery"
 		}
@@ -306,7 +300,7 @@
 		,{
 			"name": "<a href='https://github.com/gjTool/demo/blob/master/baidu.html' title='https://github.com/gjTool/demo/blob/master/baidu.html' target='_blank'>jQuery-百度搜索</a>",
 			"url": "http://www.gjtool.cn/demo/baidu.html",
-			"img": "images/eq/case.jpg",
+			"img": "images/eq/bai.png",
 			"title": "jQuery-百度搜索",
 			"text": "html、css3、JavaScript、jQuery"
 		}
