@@ -14,7 +14,7 @@ $(document).ready(function(e) {
 		var len = $("#js_wrap_case").children().length;
 
 		width = 1000 * size;
-
+		console.log(width);
 		$("#js_wrap_case").css({
 			"width": len * width
 		});
