@@ -530,7 +530,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 	display: block;
 	overflow: hidden;
 	border-radius: 50%;
-	background: #fff url(../images/github.png) no-repeat center 4px;
+	background: #fff url(../images/github.png) no-repeat center 0.04rem;
 	background-size:0.4rem 0.4rem;
 }
 

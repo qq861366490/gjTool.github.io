@@ -14,7 +14,6 @@ $(document).ready(function(e) {
 		var len = $("#js_wrap_case").children().length;
 
 		width = 1001 * size;
-		console.log(width);
 		$("#js_wrap_case").css({
 			"width": len * width
 		});
@@ -50,20 +49,21 @@ $(document).ready(function(e) {
 	$(".list_case").on("click", ".js_cell_case", function() {
 		url = $(this).attr("data-url"); // 要加载的iframe
 		title = $(this).attr("data-name");
-		var width = 1366,
-			height = 760;
+		var width1 = 1366,
+			height1 = 768;
 		if(title.indexOf('移动端') != -1) {
-			width = 420, height = 700;
+			width1 = 375, height1 = 767;
 		}
+		console.log(width1*size);
 		//583
 		art.dialog.open(url, {
 			lock: true,
 			title: title,
-			width: width,
+			width: width1*size,
 			drag: false,
 			opacity: 0.6,
 			background: "#000",
-			height: height
+			height: height1*size
 		});
 	});
 
